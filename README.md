@@ -6,7 +6,7 @@ miniroute
 ```
 composer require soils-w/miniroute
 ```
-.htaccess(Apache):
+.htaccess(Apache)：
 
 ```
 RewriteEngine On
