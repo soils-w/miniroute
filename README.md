@@ -3,8 +3,9 @@ miniroute
 
 ### Install
 
-If you have Composer, just include miniroute as a project dependency in your `composer.json`. If you don't just install it by downloading the .ZIP file and extracting it to your project directory.
-
+```
+composer require soils-w/miniroute
+```
 .htaccess(Apache):
 
 ```
