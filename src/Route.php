@@ -136,7 +136,7 @@ class Route
 
                 $ruleuri = $method_rule[$uri];
 
-                if($ruleuri instanceof Closure) {//判断是闭包函数
+                if(is_object($ruleuri)) {//判断是闭包函数
                     //回调闭包函数
                     call_user_func($ruleuri);
                 } else {
